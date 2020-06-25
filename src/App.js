@@ -1,9 +1,10 @@
 import React from 'react';
+import PersistentDrawerLeft from './PersistentDrawerLeft';
 
 const app_page=()=>{
     return(
         <div>
-            <h1>Hello</h1>
+            <PersistentDrawerLeft/>
         </div>
     )
 }
