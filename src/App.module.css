@@ -1,0 +1,15 @@
+.glass{
+    background-color: black;
+    opacity: 0.9;
+    width: 50% !important;
+    height: 500px !important; 
+
+    
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.bigbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 7% !important;
+}
